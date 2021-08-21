@@ -7,7 +7,7 @@ export default function Navbar({menuOpen, setMenuOpen}) {
       <div className="wrapper">
         <div className="left">
           
-          <a href="#home" className="logo">creating with Zee</a>
+          <a href="#about" className="logo">creating with Zee</a>
           <div className="item-container">
             <Person className="icon" />
             <span>571-368-9177</span>
