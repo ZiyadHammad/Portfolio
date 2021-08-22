@@ -37,13 +37,14 @@
           font-size: 100px;
           color: rgba(221, 214, 214, 0.753);
           border-bottom: solid 10px rgb(255, 253, 253);
-
-      p{
-        font-size: 200px;
-        margin-top: 20px;
-        color: rgb(110, 106, 106);
-      }
     }
+    .content{
+      font-size: 40px;
+      margin-top: 20px;
+      color: rgb(110, 106, 106);
+      width: 70%;
+    }
+    
     }
   }
 }

@@ -8,12 +8,14 @@ import Contact from "./components/Contact/Contact"
 import { useState } from "react"
 import Menu from "./components/Menu/Menu"
 import About from "./components/About/About"
+// import Footer from "./components/Footer/Footer"
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
 
 
   return (
+    
     <div className="App">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu  menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
@@ -22,8 +24,8 @@ function App() {
         <About />
         <Projects />
         <Contact />
-
-     </div>
+      </div>
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -13,9 +13,9 @@ export default function About() {
       <div className="right">
         <div className="wrapper">
           <h1>About Me</h1>
-          <p>I'm a full-stack software engineer currently based in the Northern Virginia Area. I'm a detail-oriented developer driven by learning new ways to create products to enhance our daily lives </p>
+          <p className="content">I'm a full-stack software engineer currently based in the Northern Virginia Area. I'm a detail-oriented developer driven by learning new ways to create products to enhance our daily lives </p>
           <br/>
-          <p>My background is in Sales, Management, and Marketing, meaning that I bring a unique, customer-focused perspective to the way I approach web development. </p>
+          <p className="content">My background is in Sales, Management, and Marketing, meaning that I bring a unique, customer-focused perspective to the way I approach web development. </p>
 
         </div>
       </div>

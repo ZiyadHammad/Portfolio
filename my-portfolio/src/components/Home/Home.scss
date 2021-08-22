@@ -3,7 +3,7 @@
   background-color: #434343;
 
   .left {
-    flex: 0.3;
+    flex: 0.4;
 
 
     .img-container{
@@ -19,7 +19,7 @@
   }
 
   .right {
-    flex: 0.7;
+    flex: 0.6;
     position: relative;
 
     .wrapper{
@@ -31,16 +31,16 @@
       justify-content: center;
 
       h1{
-        font-size: 60px;
+        font-size: 150px;
         margin: 10px 0;
 
       }
       h2{
-        font-size: 35px;
+        font-size: 100px;
 
       }
       h3{
-        font-size: 30px;
+        font-size: 120px;
 
         span{
           font-size: inherit;
