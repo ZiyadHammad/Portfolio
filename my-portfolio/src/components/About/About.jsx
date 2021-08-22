@@ -1,6 +1,6 @@
 import "./About.scss"
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
-import { init } from 'ityped'
+// import { init } from 'ityped'
 // import {useEffect, useRef} from "react"
 
 export default function About() {
