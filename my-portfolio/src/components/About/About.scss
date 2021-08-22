@@ -1,8 +1,10 @@
 .about {
   display: flex;
+  background-color: #434343;
 
   .left {
     flex: 0.3;
+    margin-top: 100px;
 
 
     .img-container{
@@ -11,8 +13,8 @@
 
       img{
         height: 100%;
-        // background-color: crimson;
-        // border-radius: 30%;
+        background-color: crimson;
+        border-radius: 50%;
       }
     }
   }
@@ -26,44 +28,22 @@
       height: 100%;
       padding-left: 50px;
       display: flex;
+      // justify-content: center;
+      align-items: center;
       flex-direction: column;
-      justify-content: center;
+      margin: 100px 0px 0px 40px;
 
       h1{
-        font-size: 60px;
-        margin: 10px 0;
+          font-size: 100px;
+          color: rgba(221, 214, 214, 0.753);
+          border-bottom: solid 10px rgb(255, 253, 253);
 
-      }
-      h2{
-        font-size: 35px;
-
-      }
-      h3{
-        font-size: 30px;
-
-        span{
-          font-size: inherit;
-          color: crimson;
-        }
+      p{
+        font-size: 200px;
+        margin-top: 20px;
+        color: rgb(110, 106, 106);
       }
     }
-    a{
-      position: absolute;
-      bottom: 100px;
-      left: 50%;
-      
-
-        .down{
-          animation: arrowBlink 2s infinite;
-          height: 100px;
-          width: 100px;
-        }
-        @keyframes arrowBlink {
-          100%{
-            opacity: 0;
-          }
-        }
     }
-
   }
 }

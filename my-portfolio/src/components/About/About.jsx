@@ -1,37 +1,23 @@
+import React from 'react'
 import "./About.scss"
-import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
-// import { init } from 'ityped'
-// import {useEffect, useRef} from "react"
 
 export default function About() {
-  // const textRef = useRef();
-
-  // useEffect(() => {
-  //   init(textRef.current, {
-  //     showCursor: false,
-  //     strings: ['Developer', 'Designer', 'Content Creator']
-  //   })
-  // }, [])
-
   return (
     <div className="about" id="about">
-
       <div className="left">
-         <div className="img-container">
-          <img src="assets/mylogo.png" alt="" />
+        <div className="img-container">
+        <img src="assets/wavelogo.png" alt="" />
         </div>
       </div>
 
       <div className="right">
         <div className="wrapper">
-          <h2>Hi There, I'm</h2>
-          <h1>Ziyad Hammad</h1>
-          
-          <h3>Freelance <span>Developer</span></h3>
+          <h1>About Me</h1>
+          <p>I'm a full-stack software engineer currently based in the Northern Virginia Area. I'm a detail-oriented developer driven by learning new ways to create products to enhance our daily lives </p>
+          <br/>
+          <p>My background is in Sales, Management, and Marketing, meaning that I bring a unique, customer-focused perspective to the way I approach web development. </p>
+
         </div>
-        <a href="#projects">
-          <ArrowDownwardIcon className="down" alt=""/>
-        </a>
       </div>
     </div>
   )
