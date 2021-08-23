@@ -12,7 +12,7 @@ export default function Projects() {
       <div className="container">
 
         <div className="item">
-          <img src="assets/code-doc.png" alt="" />
+          {/* <img src="assets/code-doc.png" alt="" /> */}
           <h1>Code Doctor</h1>
         </div>
       

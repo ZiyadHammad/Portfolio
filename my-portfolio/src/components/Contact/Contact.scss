@@ -1,3 +1,20 @@
 .contact {
   background-color: #434343;
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+ 
+
+  .form{
+    display:flex;
+    text-align: center;
+    // justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+
+
+    
+  }
 }

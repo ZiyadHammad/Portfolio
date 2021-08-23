@@ -1,17 +1,19 @@
 import "./Home.scss"
 import ArrowDownwardIcon from '@material-ui/icons/ArrowDownward';
-// import { init } from 'ityped'
-// import {useEffect, useRef} from "react"
+import { init } from 'ityped'
+import {useEffect, useRef} from "react"
 
 export default function Home() {
-  // const textRef = useRef();
+  const textRef = useRef();
 
-  // useEffect(() => {
-  //   init(textRef.current, {
-  //     showCursor: false,
-  //     strings: ['Developer', 'Designer', 'Content Creator']
-  //   })
-  // }, [])
+  useEffect(() => {
+    init(textRef.current, {
+      showCursor: true,
+      backDelay: 1500,
+      backSpeed: 60,
+      strings: ['Developer', 'Designer', 'Content Creator']
+    })
+  },[])
 
   return (
     <div className="home" id="home">
@@ -27,7 +29,7 @@ export default function Home() {
           <h2>Hi There, I'm</h2>
           <h1>Ziyad Hammad</h1>
           
-          <h3>Freelance <span>Developer</span></h3>
+          <h3>Freelance <span ref={textRef}>Developer</span></h3>
         </div>
         <a href="#about">
           <ArrowDownwardIcon className="down" alt=""/>
