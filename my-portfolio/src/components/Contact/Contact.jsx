@@ -3,8 +3,9 @@ import "./Contact.scss"
 export default function Contact() {
   return (
     <div className="contact" id="contact">
-      <h1>Say Hello</h1>
-      <h2>Always open to connecting</h2>
+      <div className="left">
+        <img src="" alt="" />
+      </div>
       
 
         <form className="form">
