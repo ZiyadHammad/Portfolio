@@ -7,13 +7,19 @@ export default function Projects() {
       <ul>
         <li>MERN App</li>
         <li>React App</li>
-        <li>JavaScript</li>
+        <li>HTML, CSS & JavaScript</li>
       </ul>
+      
       <div className="container">
 
+      <div className="item">
+          <img src="assets/code-doc.png" alt="" />
+          <h3>Code Doctor</h3>
+        </div>
+
         <div className="item">
-          {/* <img src="assets/code-doc.png" alt="" /> */}
-          <h1>Code Doctor</h1>
+          <img src="assets/code-doc.png" alt="" />
+          <h3>Code Doctor</h3>
         </div>
       
       </div>
@@ -21,22 +27,24 @@ export default function Projects() {
       <div className="container">
 
         <div className="item">
-          {/* <img src="assets/code-doc.png" alt="" /> */}
-          <h1>Code Doctor</h1>
+          <img src="assets/code-doc.png" alt="" />
+          <h3>Code Doctor</h3>
         </div>
-      
-      </div>
-
-      <div className="container">
 
         <div className="item">
-          {/* <img src="assets/code-doc.png" alt="" /> */}
-          <h1>Code Doctor</h1>
+          <img src="assets/code-doc.png" alt="" />
+          <h3>Code Doctor</h3>
         </div>
+      
+      </div>
+
+
+
+     
       
       </div>
       
 
-    </div>
+   
   )
 }
