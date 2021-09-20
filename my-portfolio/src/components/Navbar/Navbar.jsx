@@ -7,7 +7,7 @@ export default function Navbar({menuOpen, setMenuOpen}) {
       <div className="wrapper">
         <div className="left">
           
-          <a href="#about" className="logo">creating with Zee</a>
+          <a href="#about" className="logo">Ziyad Hammad</a>
           <div className="item-container">
             <Person className="icon" />
             <span>571-368-9177</span>
@@ -15,6 +15,11 @@ export default function Navbar({menuOpen, setMenuOpen}) {
           <div className="item-container">
             <Email className="icon" />
             <span>ZiyadHammad@Outlook.com</span>
+          </div>
+          <div className="item-container">
+            <a href="https://bit.ly/3lB7IAw" target="_blank" alt="">
+            <h1>Resume</h1>
+            </a>
           </div>
         </div>
        
