@@ -1,2 +1,2 @@
 # Portfolio
-[Live Site](ziyadhammad.netlify.app)
+[Live Site](/ziyadhammad.netlify.app)
