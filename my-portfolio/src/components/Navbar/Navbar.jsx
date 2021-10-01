@@ -14,7 +14,7 @@ export default function Navbar({menuOpen, setMenuOpen}) {
           </div>
           <div className="item-container">
             <Email className="icon" />
-            <span>ZiyadHammad@Outlook.com</span>
+            <span>ZiyadHammad2@Gmail.com</span>
           </div>
           <div className="item-container">
             <a href="https://bit.ly/39ZGyOd" target="_blank" alt="" rel="noreferrer">
