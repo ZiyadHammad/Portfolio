@@ -17,7 +17,7 @@ export default function Navbar({menuOpen, setMenuOpen}) {
             <span>ZiyadHammad2@Gmail.com</span>
           </div>
           <div className="item-container">
-            <a href="https://bit.ly/39ZGyOd" target="_blank" alt="" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1aWIzhp2ovUGvPkZTsaJUEJhoQm26DoTq/view?usp=sharing" target="_blank" alt="" rel="noreferrer">
              <button>Resume</button>
             </a>
           </div>
